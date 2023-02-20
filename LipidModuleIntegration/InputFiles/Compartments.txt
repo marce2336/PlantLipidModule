@@ -1,0 +1,16 @@
+c	cytosol	cytoplasm			
+cut	cuticle	cutin			
+g	golgi apparatus	golgi			
+h	plastid	chloroplast			
+hm	chloroplast membrane				
+imm	intermembrane space mitochondrion	intermembrane space mitochondria	inner mitochondria	intermembrane space	
+l	lumen	thylakoid	thylakoid lumen		
+m	mitochondrion	mitochondria			
+mm	mitochondrion membrane	mitochondrial membrane	mitochondria membrane		
+ob	oil body	lipid particle			
+ohm	outer chloroplast envelope	chloroplast envelope			
+px	peroxisome	glyoxysome			
+pg	plastoglobuli				
+pm	plasma membrane	plasmatic membrane			
+r	endoplasmatic reticulum	endoplasmic reticulum	endoplasmatic	endoplasmic	reticulum
+rm	endoplasmic reticulum membrane	endoplasmic membrane	reticulum membrane		

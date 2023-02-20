@@ -1,0 +1,79 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="672696105" file="C:\Users\sandr\OneDrive - Universidad de Antioquia\Publications\Paper 4\BiomassComponents\Scripts\Dependencies\FindmatchingComp_App\FindMatchingComp.prj" location="C:\Users\sandr\OneDrive - Universidad de Antioquia\Publications\Paper 4\BiomassComponents\Scripts\Dependencies\FindmatchingComp_App" name="FindMatchingComp" target="target.mlapps" target-name="Package App">
+    <param.appname>FindMatchingComp</param.appname>
+    <param.authnamewatermark>Sandra Correa</param.authnamewatermark>
+    <param.email>Cordoba@mpimp-golm.mpg.de</param.email>
+    <param.company>MPI-MP</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>FindMatchingComp allows the user to manually pair up the compartments information of two metabolic models</param.description>
+    <param.screenshot>C:\Users\sandr\AppData\Local\Temp\tp80a08ee0_5b9c_4b8c_adf1_e4a8d5cd0e7b.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e836c9b9-e679-4e1e-9b27-42b845a8e31e</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app_FindMatchingComp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\sandr\OneDrive - Universidad de Antioquia\Publications\Paper 4\BiomassComponents\Scripts\Dependencies" name="FindmatchingComp_App" optional="false">C:\Users\sandr\OneDrive - Universidad de Antioquia\Publications\Paper 4\BiomassComponents\Scripts\Dependencies\FindmatchingComp_App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
