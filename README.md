@@ -57,23 +57,24 @@ The remaining dependencies listed below are included in the 'Dependencies' folde
 
 ### Usage
 
+1. Initialize MATLAB with administrator privileges
 
-1. Install all the dependencies listed above (see section 'Dependencies')
+2. Install all the dependencies listed above (see section 'Dependencies')
 
-2. Add the path with subfolders for 'LipidModuleIntegration' folder
+3. Add the path with subfolders for 'LipidModuleIntegration' folder
 
-3. Initialize the CobraToolbox
+4. Initialize the CobraToolbox
 
-4. Change the cobra solver to 'gurobi' <changeCobraSolver('gurobi')>
+5. Change the cobra solver to 'gurobi' <changeCobraSolver('gurobi')>
 
-5. Type in the Command Window 'LipidModuleIntegration'
+6. Type in the Command Window 'LipidModuleIntegration'
 
-6. Select the model in which the PLM wants to be integrated (an example model is included in the 'ExampleModel' folder)
+7. Select the model in which the PLM wants to be integrated (an example model is included in the 'ExampleModel' folder)
 
-7. Carefully read the messages displayed in the Command Window reagarding recommendations for the incorporation of light reactions into the Template model, and the
+8. Carefully read the messages displayed in the Command Window regarding recommendations for the incorporation of light reactions into the Template model, and the
    creation of a copy of the extended model in .xml format
 
-8. Once the PLM is integrated into the Template model, the message 'The model was created in "OutputFiles" folder!' is displayed. The extended model can be found
+9. Once the PLM is integrated into the Template model, the message 'The model was created in "OutputFiles" folder!' is displayed. The extended model can be found
    in the route "../LipidModuleIntegration/OutputFiles", together with the list of new metabolites added, metabolites harmonized, compartments that were paired up,
    reactions whose direcction was adjusted and compartments for which no match was found in the PLM.
    The model named 'OutputModel' corresponds to the Template model extended with the PLM.
